@@ -1,4 +1,13 @@
 variable "filename" {
+  type    = list(string)
+  default = [
+    "/root/pets.txt",
+    "/root/dogs.txt",
+    "/root/cats.txt"
+  ]
+}
+
+variable "single_filename" {
   default = "./pets.txt"
 }
 
@@ -10,7 +19,7 @@ variable "prefix" {
   default = "Mrs"
 }
 
-variable "seperator" {
+variable "separator" {
   default = "."
 }
 
