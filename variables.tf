@@ -1,5 +1,5 @@
 variable "filename" {
-  default = "/Users/ej/terraform-variable-examples/pets.txt"
+  default = "./pets.txt"
 }
 
 variable "myvar" {
@@ -22,10 +22,10 @@ variable "myfiles" {
   type        = list(string)
   description = "List of filenames to create"
   default = [
-    "/Users/ej/terraform-variable-examples/mice.txt",
-    "/Users/ej/terraform-variable-examples/dogs.txt",
-    "/Users/ej/terraform-variable-examples/cats.txt",
-    "/Users/ej/terraform-variable-examples/cows.txt",
-    "/Users/ej/terraform-variable-examples/ducks.txt"
+    "./mice.txt",
+    "./dogs.txt",
+    "./cats.txt",
+    "./cows.txt",
+    "./ducks.txt"
   ]
 }
