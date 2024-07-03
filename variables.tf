@@ -1,5 +1,14 @@
 variable "filename" {
-  default = "./pets.txt"
+  type    = list(string)
+  default = [
+    "./pets.txt",
+    "./dogs.txt",
+    "./cats.txt"
+  ]
+}
+
+variable "single_filename" {
+  default = "./imporant-message-here.txt"
 }
 
 variable "myvar" {
