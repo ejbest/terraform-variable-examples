@@ -38,3 +38,9 @@ variable "myfiles" {
     "./ducks.txt"
   ]
 }
+
+variable "z-variable" {
+  description = "An example variable"
+  type        = string
+  default     = "This is a z-variable value from some place"
+}

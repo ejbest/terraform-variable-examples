@@ -1,3 +1,11 @@
+terraform {
+  required_providers {
+    source = "hashicop/local"
+    version = "> 1.6.0"
+  }
+}
+
+
 resource "local_file" "single_pet" {
   filename = var.single_filename
   content  = "My favorite pet is ${random_pet.my-pet.id}, ${var.myvar}"
