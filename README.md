@@ -17,3 +17,16 @@
 2. Command "terraform show" reveals the plan details at your command.
 
 3. Command "terraform output" shows the files that are the intended output of the terraform programmer.  If the programmer had something that should be seen the programmer would put that here.
+
+4. terraform output
+      - terraform output  <br>
+      - terraform output simple <br>
+      - terraform output pets <br>
+      - terraform output z-variable
+
+5. terraform state list
+
+6. terraform state show 
+
+7. terraform state show local_file.single_pet
+
